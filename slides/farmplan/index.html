@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Farm Plan</title>
+  <meta content="Farm Plan Project" name=
+  "description">
+  <meta content="Gérald FENOY" name="author">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black-translucent" name=
+  "apple-mobile-web-app-status-bar-style">
+  <meta content=
+  "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  name="viewport">
+  <link href="../assets/css/bootstrap.css" rel="stylesheet">
+  <link href="../assets/css/reveal.min.css" rel="stylesheet">
+  <link href="../assets/css/theme/beige2016.css" id="theme" rel="stylesheet">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>-->
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+
+  <script>
+        if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+  </script><!--[if lt IE 9]>
+        <script src="../assets/lib/js/html5shiv.js"></script>
+        <![endif]-->
+        <link href="https://fonts.googleapis.com/css?family=Kanit:200,400" rel="stylesheet">
+  <style>
+    body {
+      font-color : #cce6ff;
+    }
+  </style>
+</head>
+
+<body >
+
+
+  <div class="reveal" >
+    <div class="slides" >
+
+      <section data-background-color="#cce6ff"  data-transition="convex">
+        <h1></h1>
+
+        
+        
+        <div class="row" >
+          <img src="img/icon_app.png" width="30%">
+         </div>
+
+          <div class="row">
+        <ul class="auth">
+          <li><h1>Farm Plan</h1>
+          </li>
+          <li> Chingchai HUMHONG</li>
+          <li> Sakda HOMHUAN</li>
+          <li> Teerayoot INJUN</li>
+          <li> Chada NARONGRIT</li>
+
+
+        </ul>
+  </div>
+      </section>
+
+
+
+      <section  data-transition="convex">
+        <h2> วัตถุประสงค์</h2>
+        <br>
+        <br>
+
+
+        <div class="col-xs-6 col-sm-6 col-lg-6 text-center">
+            <img src="img/mobile1.png" alt="">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-lg-6 text-center">
+          <p class="page" style="text-align:left;" > 1. เพื่อพัฒนาแอปพลิเคชันบนโทรศัพท์มือถือระบบ Android 
+สำหรับค้นหาและแจ้งเตือนข้อมูลพื้นที่เสี่ยงโรคไข้เลือดออก   บริเวณโดยรอบแหล่งท่องเที่ยว <br> <br>
+2. เพื่อพัฒนาระบบประมวลผลแผนที่บนเว็บ (Web Processing Service: WPS) 
+เชื่อมโยงฐานข้อมูลพื้นที่เสี่ยงโรคไข้เลือดออกแบบเรียลไทม์ไปยังแอปพลิเคชันบนโทรศัพท์มือถือ</p>
+        </div>
+
+
+      </section>
+
+
+      <section  data-transition="convex">
+        <section>
+        <h2>แนวคิด</h2>
+        <br>
+        <br>
+
+
+        
+
+
+        <div class="col-xs-12 col-sm-8 col-lg-8 text-left">
+          <p class="page" ><font size="">แนวคิด  <br>
+• ประเทศไทยพบโรคติดต่อที่เกิดจากยุงทุกปี เช่น ไข้เลือดออก มาลาเรีย และเท้าช้าง  <br>
+• การท่องเที่ยวแบบไม่ระมัดระวังอาจเกิดการติดต่อและแพร่กระจายโรค <br>
+• ยังไม่มีแอพฯ บอกสถานการณ์โรคติดต่อจากยุงสำหรับนักท่องเที่ยว <br>
+• การใช้ LBS บอกสถานการณ์โรครอบแหล่งท่องเที่ยวช่วยให้นักท่องเที่ยวรู้ทันโรค </font> </p>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
+          <img class="img-responsive" width="100%" src="img/mobile2.png">
+        </div>
+
+       </section>
+        <section>
+          <h2>สถาปัตยกรรมของระบบ</h2>
+          <img src="img/2516.jpg" />
+        </section>
+      </section>
+
+
+      <section data-background-transition="slide">
+        <section>
+          <h2> <img src="img/logobanner.png" width="90%"></h2>
+          <br>
+          <br>
+
+
+          <div class="col-xs-12 col-sm-6 col-lg-6 text-center">การทำงานของ Application
+            <img src="img/app/1.png" alt="" width="30%">
+            <img src="img/app/2.png" alt="" width="30%">
+            <img src="img/app/4.png" alt="" width="30%">
+          </div>
+
+
+          <div class="col-xs-12 col-sm-6 col-lg-6 text-left">
+            <p class="page"> - ค้นหาและตรวจสอบพื้นที่เสี่ยงบริเวณรอบสถานที่ท่องเที่ยว</p>
+            <p class="page"> - ค้นหาสถานพยาบาล</p>
+            <p class="page"> - ตรวจสอบพื้นที่เสี่ยง ณ ตำแหน่งปัจจุบัน</p>
+            <p class="page"> - วางแผนเส้นทาง</p>
+            <p class="page"> - แนวทางป้องกันโรคเมื่ออยู่ในพื้นที่เสี่ยง</p>
+
+
+          </div>
+        </section>
+
+      <section >
+        <h2> - ค้นหาและตรวจสอบพื้นที่เสี่ยงบริเวณรอบสถานที่ท่องเที่ยว</h2>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+          <img src="img/app/2.png" width="25%">
+          <img src="img/app/3.png" width="25%">
+          <img src="img/app/4.png" width="25%">
+        </div>
+      </section>
+
+      <section >
+        <h2> - ค้นหาสถานพยาบาลและเส้นทางที่ดีที่สุด</h2>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+          <img src="img/app/8.png" width="25%">
+          <img src="img/app/9.png" width="25%">
+        </div>
+      </section>
+
+      <section >
+        <h2> - ดูพื้นที่เสี่ยงรอบตัวคุณ</h2>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+          <img src="img/app/7.png" width="30%">
+        </div>
+      </section>
+
+      <section >
+        <h2> - แนวทางป้องกันโรคเมื่ออยู่ในพื้นที่เสี่ยง <br>และคำถามที่พบบ่อย</h2>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+          <img src="img/app/6.png" width="30%">
+          <img src="img/app/10.png" width="30%">
+        </div>
+      </section>
+
+      </section>
+
+
+
+
+
+      <section >
+        <h2>จุดเด่นของ Application</h2>
+        <br>
+        <br>
+
+
+        <div class="col-xs-5 col-sm-5 col-lg-5 text-center">
+
+          <p class="page fragment">
+• ยังไม่มีการพัฒนาแอปพลิเคชันแบบนี้ในประเทศไทย  <br>
+
+          </p>
+          <p class="page fragment">
+• มีการพัฒนาด้วยระบบเว็บประมวลผล (WPS) วิเคราะห์พื้นที่เสี่ยงโรค <br>
+
+          </p>
+          <p class="page fragment">
+• แจ้งเตือนข้อมูลพื้นที่เสี่ยงโรคไข้เลือดออกจากตำแหน่งปัจจุบันหรือจากสถานที่ท่องเที่ยว
+          </p>
+        </div>
+
+
+        <div class="col-xs-7 col-sm-7 col-lg-7 text-center ">
+          <img src="img/mobile3.png" width="150%">
+        </div>
+
+
+
+      </section>
+
+
+   
+
+      <section>
+        <h2>ประโยชน์</h2>
+        <br>
+        <br>
+
+
+
+
+
+        <div class="col-xs-12 col-sm-8 col-lg-8 text-left">
+          <p class="page">
+            1.ผู้ใช้สามารถตรวจสอบความเสี่ยงของไข้เลือดออกของเส้นทาง/สถานที่ท่องเที่ยวที่วางแผนเดินทางไว้ หรือตำแหน่ง ณ ปัจจุบันที่เดินทางไปถึง <br><br>
+2.ผู้ใช้ได้รับทราบทันทีเมื่อเข้าไปในเขตของพื้นที่เสี่ยงโรคไข้เลือดออก  <br><br>
+3.ผู้ใช้สามารถทราบเส้นทางที่เหมาะสมที่สุดไปยังสถานพยาบาลและข้อมูลเบื้องต้นสำหรับดูแลตนเอง </p>
+        </div>
+
+                <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
+                  <img src= "img/app/5.png" width="70%">
+        </div>
+      </section>
+
+      <section>
+        <h3><a href="http://www.cgistln.nu.ac.th/"><img src="http://www.cgistln.nu.ac.th/pararubber/resources/logo_gistv3.png" width="30%" alt=""></a><br> DEVELOPMENT TEAM</h3>
+
+        <br>
+
+        <div class="col-xs-4 col-sm-4 col-lg-3 text-center">
+          <img src= "img/team/01.jpg" width="100%">
+         <small>Teerayoot INJUN <br> DEVELOPER</small> 
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-3 text-center">
+          <img src= "img/app/5.png" width="100%">
+          <small>Chingchai HUMHONG</small> 
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-3 text-center">
+          <img src= "img/app/5.png" width="100%">
+           <small>Sakda HOMHUAN</small>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-3 text-center">
+          <img src= "img/app/5.png" width="100%">
+           <small>Chada NARONGRIT</small>
+        </div>
+
+
+      </section>
+
+
+    </div>
+  </div>
+  <script src="../assets/lib/js/head.min.js"></script> <script src="../assets/js/reveal.min.js"></script> <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: '../assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: '../assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: '../assets/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '../assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+  </script>
+</body>
+</html>
